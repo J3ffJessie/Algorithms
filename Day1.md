@@ -82,3 +82,6 @@
     - How code is interpreted by the machine
 - Recursion.
     - The art of the hand off.
+
+# Resource Listed
+ - https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php

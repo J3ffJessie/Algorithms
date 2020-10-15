@@ -9,7 +9,7 @@
 //     }
 //   };
 
-const { Console } = require("console");
+
 
 //Use one for loop or one while loop
 // Must use Modulus (%) operator

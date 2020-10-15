@@ -26,10 +26,10 @@ const math = [
 const circularArray = (arr, numberOfLoops) => {
     let i = 0;
     while(i < (arr.length % numberOfLoops)){
-        console.log(arr);
+        console.log(i);
         console.log("-------");
         i++;
     }
 };
 
-circularArray(math, 55);
+circularArray(math,8);

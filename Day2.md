@@ -107,6 +107,10 @@ Visuals:
 
 https://www.bigocheatsheet.com/
 
+Modular Arithmetic:
+
+<a href= "https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic"> Khan Academy Link </a>
+
 
 <strong> Removed the assignment work for note purposes </strong> 
 

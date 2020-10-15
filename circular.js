@@ -25,7 +25,7 @@ const math = [
 
 const circularArray = (arr, numberOfLoops) => {
     let i = 0;
-    while(arr.length % numberOfLoops > i){
+    while(i < (arr.length % numberOfLoops)){
         console.log(arr);
         console.log("-------");
         i++;

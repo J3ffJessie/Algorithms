@@ -33,3 +33,13 @@ const circularArray = (arr, numberOfLoops) => {
 };
 
 circularArray(math,8);
+
+
+
+const circleArray = (arr, numberOfLoops) => {
+let i =0;
+while(i < (arr.length * numberOfLoops)){
+console.log(i);
+
+
+}

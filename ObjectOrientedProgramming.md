@@ -82,6 +82,33 @@ A Constructor is the first function called when the Class is instantiated into a
 It "Constructs" the Object from the template
 Constructors are customizable too, they are just functions!
 
+```
+class Car {
+    constructor(name, color, type, isAutomatic, isFourWheel, cylinders, topSpeed) {
+        this.name = name;
+        this.color = color;
+        this.type = type;
+        this.isAutomatic = isAutomatic;
+        this.isFourWheel = isFourWheel;
+        this.cylinders = cylinders;
+        this.topSpeed = topSpeed;
+    }
+
+    accelerate(){}
+
+    stop() {}
+
+
+}
+
+const sportsCar = new Car("Sports Car", "Blue", "Coupe", false, false, 8, 100);
+
+
+console.log(this.name);
+console.log(sportsCar.accelerate());
+const blueSuv = new Car();
+
+```
 ---------------------------------------
 
 Assignment:

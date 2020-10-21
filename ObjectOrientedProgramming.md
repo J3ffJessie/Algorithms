@@ -125,3 +125,33 @@ Try to use them in your Classes!
 
 
 Note: React went away from objects and classes - but OOP is all over the place in code. This is super important!
+
+
+
+
+```
+class Bank {
+    constructor(...) {}
+
+
+    //Setter
+    setEmployeeCount(numEmployees){
+        this.numEmployees = numEmployees
+    }
+
+    addEmployee(employee) {
+        this.allEmployees.push(employee)
+        this.numEmployees++;
+    }
+
+    firEmployee(employeeId){
+
+    }
+
+
+    //Getter
+    getEmployeeCount() {
+        return this.numEmployees
+    }
+}
+```

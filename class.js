@@ -17,7 +17,7 @@ class Soldier {
     }
 
     //Setter
-    addSoldier(soldier) {
+    addSoldier(Soldier) {
         this.allSoldiers.push(soldier);
         this.numSoldiers++;
     }

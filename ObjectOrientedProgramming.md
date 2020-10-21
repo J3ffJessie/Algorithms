@@ -144,7 +144,7 @@ class Bank {
         this.numEmployees++;
     }
 
-    firEmployee(employeeId){
+    fireEmployee(employeeId){
 
     }
 

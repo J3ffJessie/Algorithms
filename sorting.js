@@ -1,5 +1,5 @@
  const matchingBrackets = string => {
-    const stack = [];
+    const stack = ["[()]{}{[()()]()}"];
     const nested = {
       "(": ")",
       "{": "}",

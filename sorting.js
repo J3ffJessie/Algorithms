@@ -18,3 +18,4 @@
     return stack.length === 0;
   };
   
+matchingBrackets(stack);
